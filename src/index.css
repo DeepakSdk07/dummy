@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply px-4 py-2 rounded-md shadow-lg;
+  }
+
+  .dashboard_item {
+    @apply rounded-lg shadow-lg;
+  }
+
+  :root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0 auto;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    /* light color thmes */
+    --color-text-light-base: #191919;
+    --color-text-light-muted: #454545;
+    --color-light-fill: #fff;
+    --color-fill-light-muted: #c7c7c7;
+    --color-light-button: #dedede;
+    --color-button-light-hover: #c7c7c7;
+    --color-list-light-hover: #e84b4f;
+    --color-list-light-selected: #ed7377;
+    --color-button-light-selected: #0476d0;
+    --color-button-light-selected-hover: #088ffa;
+
+    /* dark color themes */
+    --color-text-dark-base: #e8e8e8;
+    --color-text-dark-muted: #bababa;
+    --color-dark-fill: #222222;
+    --color-fill-dark-muted: #171717;
+    --color-dark-button: #454545;
+    --color-button-dark-hover: #5c5c5c;
+    --color-list-dark-hover: #e84b4f;
+    --color-list-dark-selected: #ed7377;
+    --color-button-dark-selected: #0476d0;
+    --color-button-dark-selected-hover: #088ffa;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #00e1ff;
+}
